@@ -17,10 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: testing
-        run: "Test done"      
+        run: echo "Test done"      
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: deploy
-        run: "deployed"
+        run: echo "deployed"
       
