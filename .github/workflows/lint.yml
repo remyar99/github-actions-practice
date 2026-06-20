@@ -1,1 +1,13 @@
-
+name: PyLint
+on: 
+  push: 
+    paths: "*.py"
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloning the code
+        uses: actions/checkout@v7
+      - name: Install Linter
+        run: pip install ruff
+      
