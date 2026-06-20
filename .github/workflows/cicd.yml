@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: testing
-        run: "Test done"      
+        run: echo "Test done"      
   deploy:
     needs: test
     runs-on: ubuntu-latest
